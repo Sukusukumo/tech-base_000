@@ -22,7 +22,6 @@
 	. "password char(20)"
 	.");";
 	$stmt = $pdo->query($sql);
-	//↑$stmt不要？
     
     //送信ボタンを押したときの操作
   
